@@ -1,0 +1,16 @@
+---
+- name: Setup default Basesetup
+  include_role: 
+    name: initial_basesetup
+
+- name: Setup default Services Envriroment
+  include_role: 
+    name: initial_services
+
+- name: Setup default Hardware Envriroment
+  include_role: 
+    name: initial_hardware
+
+- name: Setup default Network Envriroment
+  include_role: 
+    name: initial_network
