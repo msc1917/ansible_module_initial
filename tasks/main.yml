@@ -3,6 +3,10 @@
   include_role: 
     name: initial_basesetup
 
+- name: Setup default Users
+  include_role: 
+    name: initial_users
+
 - name: Setup default Services Envriroment
   include_role: 
     name: initial_services
