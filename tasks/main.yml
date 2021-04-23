@@ -18,3 +18,7 @@
 - name: Setup default Network Envriroment
   include_role: 
     name: initial_network
+
+- name: Post-Setup Tasks
+  include_role: 
+    name: initial_post-task
